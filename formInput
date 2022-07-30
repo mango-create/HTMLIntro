@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <h1 id="top">Hello Coffee Joe!</h1>
+    <p>Coffee Joe loves coffee. We are full blown addicted! More caffeine please &#9749;</p>
+    <br>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="numbers.html">Numbers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <!-- Form is for data input  -->
+    <h2>Contact Us</h2>
+    <form action="">
+        <label type="text" for="name" id="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Name">
+        <br>
+        <label type="email" for="email" id="email">Email</label>
+        <input type="email" for="email" id="email"> 
+        <p>Description</p>
+        <textarea
+            name = "description"
+            id = ""
+            cols="30"
+            rows="10"
+            placeholder="Your Description"></textarea>
+        </textarea>
+
+        <!-- Checkboxes, allows you to select multiple -->
+        <p>Which president are you okay with?</p>
+        <input type = "checkbox">George Washington</input>
+        <br>
+        <input type = "checkbox">Abraham Lincoln</input>
+        <br>
+        <input type="checkbox">Andrew Jackson</input>
+
+        <!-- Radio Buttons, can only select 1. Name must match for singleton selection -->
+        <p>Choose your lunch option:</p>
+        <input type = "radio" name = "lunch">Chicken</input>
+        <input type="radio" name = "lunch">Beef</input>
+        <input type="radio" name = "lunch">Vegetarian</input>
+
+        <p>What state do you like?</p>
+        <select name = "state">
+            <option value = "California"> California</option>
+            <option value = "New York"> New York</option>
+            <option value = "Texas">Texas</option>
+            <option value = "Florida">Florida</option>
+        </select>
+        <br><br>
+        <!-- Clickable button! -->
+        <button>Submit</button>
+    </form>
+
+    
+</body>
+</html>
